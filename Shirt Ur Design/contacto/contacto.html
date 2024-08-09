@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>PRACTICA 8</title>
+        <link rel="shortcut icon" href="../logo.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../reset.css">
+        <link rel="stylesheet" href="contacto.css">
+    </head>
+    <body>
+        <header id="principio">
+            <div class="caja">
+                <a href="../practica 8.html"><img id="logo" src="../logo125.png"> </a>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="../index.html">INICIO</a>
+                        </li>
+                        <li>
+                            <a href="../nosotros/nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li>
+                            <a href="../productos/productos.html">PRODUCTOS</a>
+                        </li>
+                        <li>
+                            <a href="contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <form>
+                <label for="nombreapellido">Nombre y Apellido</label>
+                <input type="text" id="nombreapellido" class="input-padron" required>
+
+                <label for="correo">Correo Electronico</label>
+                <input type="email" id="correo" class="input-padron" required placeholder="email@dominio.com">
+
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required placeholder="Escribe tu mensaje aqui"></textarea>
+
+                <fieldset>
+                     <legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+                    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                      
+                    <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
+                       
+                    <label for="radio-wasap"><input type="radio" name="contacto" value="wasap" id="radio-wasap" checked>Whatsapp</label>
+                                           
+                </fieldset>
+
+                <div>
+                     
+                    <p>¿En cuál horario prefiere ser atendido?</p>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+
+                </div>
+                
+                <label class="checkbox">¿Le gustaría recibir novedades de Shirt Ur Design?<br><input type="checkbox" checked></label>
+                
+                <input type="submit" value="Enviar Formulario" class="enviar">
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+
+                <tbody>                    
+                    <tr>
+                        <td>Lunes</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Martes</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Miercoles</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Jueves</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sabado</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                </tbody>               
+                
+            </table>
+        </main>
+        <a href="#principio"><img src="../ba.png" id="arriba"></a>
+        <footer>
+            <p class="a">Shirt Ur Design © 2024 Derechos Reservados.</p>
+            <a href="https://www.instagram.com/shirturdesign/"><img id="insta" src="icons8-instagram-30.png" alt="Instagram"></a>
+        </footer>
+    </body>
+    <script src="../ancla.js"></script>
+</html>
