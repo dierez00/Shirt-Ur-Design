@@ -1,0 +1,117 @@
+header{
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+.caja{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+#logo{
+    margin: 1px -180px;
+}
+
+nav{
+    float: right;
+    top: 110px;
+    right: 0;
+    margin: 75px 180px 100px -180px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+#arriba{
+    position: fixed;
+    bottom: 70px;
+    right: -100px;
+}
+
+.nieve{
+    text-align: center;
+    display: block;
+}
+
+#letrero{
+    margin: 0px 300px 20px 278px;
+}
+
+#columnas{   
+    -webkit-columns: 2; /* Número de columnas que deseas */
+    -moz-columns: 2;
+    columns: 2;    
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #000000;
+    font-size: 40px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#sabores{
+    list-style-type: circle;
+    -webkit-columns: 2; /* Número de columnas que deseas */
+    -moz-columns: 2;
+    columns: 2;    
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+footer{
+    text-align: center;
+    background-color: #000002;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.a{
+    color: rgb(127, 136, 145);
+    font-size: 13px;
+    margin: 20px;
+    text-align: center;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    color: #565656;
+}
+
+body::-webkit-scrollbar-thumb{
+    background:#4d4b4b;
+    border-radius: 50px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background: #070713;
+}

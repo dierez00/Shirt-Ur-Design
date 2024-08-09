@@ -1,0 +1,182 @@
+header{
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+.caja{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+#logo{
+    margin: 1px -180px;
+}
+
+nav{
+    float: right;
+    top: 110px;
+    right: 0;
+    margin: 75px 180px 100px -180px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.logo{
+    background-image: url(4.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    text-align: center;
+}
+
+#logog{ 
+    margin: 0px 300px 20px 278px;
+}
+
+.logo p{
+    padding-top: 36px;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 32px;
+    line-height: 46px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    text-shadow: 1px 1px 19px #000;
+}
+
+.nosotros{
+    display: block;
+    text-align: center;
+}
+
+.nosotros p{
+    padding-top: 23px;
+    font-family: 'Droid Sans', sans-serif;
+    color: #000000;
+    text-transform: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 68px;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Chilanka';
+    font-size: 36px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.nosotros h3{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Chilanka';
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.nosotros li{
+    display: inline-block;
+    text-align: center;
+    width: 900px;
+    vertical-align: top;
+    margin: 2% 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.nosotros li p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Ubuntu, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+    text-align: left;
+    color: #000;
+    text-align: justify;
+}
+
+.mapa{
+    background-image: url(s5.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.mapa h1{
+    padding-top: 36px;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 32px;
+    line-height: 46px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    text-shadow: 1px 1px 19px #000;
+}
+
+#arriba{
+    position: fixed;
+    bottom: 70px;
+    right: -100px;
+}
+
+footer{
+    text-align: center;
+    background-color: #000002;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.a{
+    color: rgb(127, 136, 145);
+    font-size: 13px;
+    margin: 20px;
+    text-align: center;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    color: #565656;
+}
+
+body::-webkit-scrollbar-thumb{
+    background:#4d4b4b;
+    border-radius: 50px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background: #070713;
+}
